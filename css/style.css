@@ -1,0 +1,53 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-background{
+    background-color: bisque;
+    height: 960px;
+    padding: 10% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-calc{
+    background-color: black;
+    height: 667px;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.screen{
+    height: 27%;
+    background-color: black;
+}
+
+.container-numbers{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key-btn{
+    font-size: 2.5rem;
+    width:  4.5rem;
+    max-width: 72px;
+    max-height: 80.59px;
+    text-align: center;
+    border-radius: 1rem;
+    margin: .4rem .2rem;
+    background-color: dimgray;
+    color: azure;
+}
+
+.operator-btn{
+    background-color: coral;
+}
+
+#AC,
+#plusMinus,
+#percentage{
+    background-color: seashell;
+    color: black;
+
+}
