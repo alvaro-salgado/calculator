@@ -19,6 +19,12 @@ html{
 .screen{
     height: 27%;
     background-color: black;
+    font-size: 4rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    padding: 2% 5%;
 }
 
 .container-numbers{
